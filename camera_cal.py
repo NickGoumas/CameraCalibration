@@ -24,7 +24,7 @@ def get_image_list(img_dir):
     filename_list = os.listdir(img_dir)
     filepath_list = []
     for i in filename_list:
-        filepath_list.append(os.getcwd() + '/' + args.path + '/' + i)
+        filepath_list.append(os.getcwd() + '/' + args.path + i)
     #print(filepath_list)
     return filepath_list
 
